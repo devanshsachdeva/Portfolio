@@ -17,12 +17,14 @@
 .profile-details-name{
     font-size: 24px;
     font-family: 'Lucida Sans';
+    color: aliceblue
 }
 
 .profile-details-role{
     display: flex;
     flex-direction: column;
     margin: 14px 0 24px 0;
+    color: aliceblue
 }
 
 .profile-details-role h1{

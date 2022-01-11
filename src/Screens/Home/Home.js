@@ -46,13 +46,11 @@ export default function Home() {
                                 <Typical
                                     loop={Infinity}
                                     steps={[
-                                        "Enthusiastic Dev",
+                                        "Enthusiastic Dev 💻",
                                         3000,
-                                        "Full Stack Developer",
+                                        "👨‍💻Full Stack Developer",
                                         3000,
-                                        "Mern Stack Developer",
-                                        3000,
-                                        "Cross Platform",
+                                        "Cross Platform 🪢",
                                         3000,
 
                                     ]}

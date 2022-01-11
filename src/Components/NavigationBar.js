@@ -1,28 +1,36 @@
 import React, { useState } from 'react'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
+import AboutMe from '../Screens/AboutMe/AboutMe';
+import HomeFooter from '../Screens/Home/HomeFooter';
+
 
 const NavigationBar = () => {
     return (
         <>
-            <Navbar bg="transparent backdrop-filter backdrop-blur sticky-top z-40 w-full" variant="dark" expand="lg" >
+            <Navbar collapseOnSelect expand="lg" bg="transparent sticky-top " variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">
-                        <img
-                            alt="Logo | No Internet"
+                    <Navbar.Brand>
+                    <img
                             src={require ('../assets/Home/logo.png')}
-                            width="100"
-                            height="70"
+                            width="90"
+                            height="60"
                             className="d-inline-block align-center"
-                        />{' '}
-                        Devansh Sachdeva
-                    </Navbar.Brand>
+                            alt="React Bootstrap logo"
+                        />
+                        {" "} Devansh Sachdeva</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <br/>
+                            <Nav.Link href="/tata" component={HomeFooter}>Home</Nav.Link>
+                            <Nav.Link href="/projects" component={AboutMe}>Projects</Nav.Link>
+                            <Nav.Link href="/education">Education</Nav.Link>
+                            <Nav.Link href="/blogs">Blogs</Nav.Link>
+                            <Nav.Link href="/coffee">
+                                Buy me a coffee ☕
+                            </Nav.Link>
                         </Nav>
-                    
-
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
