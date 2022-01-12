@@ -7,7 +7,8 @@ import "./AboutMe.css"
 export default function AboutMe() {
     return (
         <div>
-            <GitHubCalendar username="devanshsachdeva" />
+            <div className='github-profile'>
+            <GitHubCalendar username="devanshsachdeva" />            </div>
             <div className='stack-use-text'>
                 <h1>Stack I Use</h1>
             </div>
@@ -29,7 +30,8 @@ export default function AboutMe() {
                     <div className='profile-picture-asp'>
                         <div className='profile-picture-background-asp'>
 
-                        </div>
+
+                       </div>
 
                     </div>
 

@@ -17,6 +17,16 @@
     margin-bottom: 20pt;
 }
 
+
+    .styles_calendar__1s6ps text {
+        fill: white;
+    }
+
+    .react-activity-calendar__count {
+        fill: white;
+    }
+
+
 .stack-use-text h1{
     font-size: 90px;
     margin: 5px 0 0 0;
