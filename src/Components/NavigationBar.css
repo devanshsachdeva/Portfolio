@@ -1,0 +1,4 @@
+.bg-transparent {
+    background-color: #1115209e!important;
+    backdrop-filter: blur(5px);
+}

@@ -17,25 +17,49 @@
     margin-bottom: 20pt;
 }
 
+.github-profile{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40pt;
+    width: 60%;
+}
+
+.github-profile h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    color: rgb(0, 204, 255);
+    font-weight: 900;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
 
     .styles_calendar__1s6ps text {
         fill: white;
     }
 
     .react-activity-calendar__count {
-        fill: white;
+        color: white;
     }
+
+    .styles_legendColors__1wUi_ {
+        color: white;
+    }
+    
 
 
 .stack-use-text h1{
     font-size: 90px;
-    margin: 5px 0 0 0;
+    margin: 10px 0 0 0;
     font-family: 'Lucida Sans';
     color: rgb(22, 206, 105);
     font-weight: 900;
-    margin: auto;
-    width: 30%;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .profile-parent-about{
@@ -201,7 +225,7 @@
     }
     .stack-use-text h1{
         font-size: 60px;
-        margin: 5px 0 0 0;
+        margin: 10px 0 0 0;
         font-family: 'Lucida Sans';
         color: rgb(22, 206, 105);
         font-weight: 900;
@@ -209,6 +233,29 @@
         width: 30%;
         padding: 10px;
     }
+
+    .github-profile h1{
+        font-size: 27px;
+        font-family: 'Lucida Sans';
+        color: rgb(0, 204, 255);
+        font-weight: 900;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .styles_calendar__1s6ps text {
+        font-size: 7px;
+    }
+
+    .react-activity-calendar__count {
+        font-size: 7px;
+    }
+
+    .styles_legendColors__1wUi_ {
+        font-size: 7px;
+    }
+
     .profile-picture-react, .profile-picture-angular, .profile-picture-asp, .profile-picture-python, .profile-picture-sql, .profile-picture-cpp{
         display: flex;
         align-items: center;
@@ -289,6 +336,32 @@
         width: 50%;
         padding: 10px;
     }
+    .styles_footer__56qQv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .github-profile h1{
+        font-size: 18px;
+        font-family: 'Lucida Sans';
+        color: rgb(0, 204, 255);
+        font-weight: 900;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .styles_calendar__1s6ps text {
+        font-size: 10px;
+    }
+
+    .react-activity-calendar__count {
+        font-size: 10px;
+    }
+
+    .styles_legendColors__1wUi_ {
+        font-size: 10px;
+    }
         
 }
 
@@ -314,6 +387,11 @@
         margin: 0 !important;
     }
 
+    .styles_footer__56qQv {
+        display: flex;
+        flex-direction: column;
+    }
+
     .stack-use-text h1{
         font-size: 35px;
         margin: 5px 0 0 0;
@@ -325,8 +403,30 @@
         padding: 10px;
     }
 
+    .github-profile h1{
+        font-size: 22px;
+        font-family: 'Lucida Sans';
+        color: rgb(0, 204, 255);
+        font-weight: 900;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
     .profile-details-name, .profile-details-role{
         text-align: center;
+    }
+
+    .styles_calendar__1s6ps text {
+        font-size: 10px;
+    }
+
+    .react-activity-calendar__count {
+        font-size: 10px;
+    }
+
+    .styles_legendColors__1wUi_ {
+        font-size: 10px;
     }
         
 }
@@ -342,6 +442,11 @@
         width: 90%;
     }
 
+    .styles_footer__56qQv {
+        display: flex;
+        flex-direction: column;
+    }
+
     .stack-use-text h1{
         font-size: 30px;
         font-family: 'Lucida Sans';
@@ -350,6 +455,26 @@
         margin: auto;
         width: 70%;
         padding: 10px;
+    }
+    .github-profile h1{
+        font-size: 20px;
+        font-family: 'Lucida Sans';
+        color: rgb(0, 204, 255);
+        font-weight: 900;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+    .styles_calendar__1s6ps text {
+        font-size: 10px;
+    }
+
+    .react-activity-calendar__count {
+        font-size: 10px;
+    }
+
+    .styles_legendColors__1wUi_ {
+        font-size: 10px;
     }
 }
 
@@ -364,6 +489,11 @@
         width: 90%;
     }
 
+    .styles_footer__56qQv {
+        display: flex;
+        flex-direction: column;
+    }
+
     .stack-use-text h1{
         font-size: 30px;
         font-family: 'Lucida Sans';
@@ -372,5 +502,25 @@
         margin: auto;
         width: 70%;
         padding: 10px;
+    }
+    .styles_calendar__1s6ps text {
+        font-size: 10px;
+    }
+
+    .react-activity-calendar__count {
+        font-size: 10px;
+    }
+
+    .styles_legendColors__1wUi_ {
+        font-size: 10px;
+    }
+    .github-profile h1{
+        font-size: 27px;
+        font-family: 'Lucida Sans';
+        color: rgb(0, 204, 255);
+        font-weight: 900;
+        justify-content: center;
+        text-align: center;
+        display: flex;
     }
 }

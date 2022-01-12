@@ -1,18 +1,18 @@
 import React from 'react'
 import Stacky from '../../Components/Stacky'
 import Typical from 'react-typical';
-import GitHubCalendar from 'react-github-calendar';
 import "./AboutMe.css"
+import Github from '../../Components/Github';
 
 export default function AboutMe() {
     return (
         <div>
-            <div className='github-profile'>
-            <GitHubCalendar username="devanshsachdeva" />            </div>
+            <Github />
+
             <div className='stack-use-text'>
                 <h1>Stack I Use</h1>
             </div>
-            
+
             <div className='profile-container-aboutone'>
                 <div className='profile-parent-about'>
                     <div className='profile-picture-angular'>
@@ -31,17 +31,17 @@ export default function AboutMe() {
                         <div className='profile-picture-background-asp'>
 
 
-                       </div>
+                        </div>
 
                     </div>
 
 
                 </div>
 
-                
+
             </div>
 
-            
+
 
             <div className='profile-container-abouttwo'>
                 <div className='profile-parent-about'>

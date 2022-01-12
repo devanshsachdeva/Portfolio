@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 import AboutMe from '../Screens/AboutMe/AboutMe';
 import HomeFooter from '../Screens/Home/HomeFooter';
+import './NavigationBar.css'
 
 
 const NavigationBar = () => {

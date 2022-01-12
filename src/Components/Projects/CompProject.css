@@ -1,0 +1,190 @@
+.cpr-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 75px;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 20px;
+    margin: 10pt;
+}
+
+.cpr-details{
+    margin: 10px;
+}
+
+.cpr-contact{
+    font-size: 17px;
+    font-family: 'Lucida Sans';
+    color: aliceblue
+}
+
+.cpr-details-name{
+    font-size: 24px;
+    font-family: 'Lucida Sans';
+    color: aliceblue;
+    text-align: center;
+}
+
+.cpr-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+    color: aliceblue
+}
+
+.cpr-details-role h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.priamry-text{
+    color: (--white);
+}
+
+.highlighted-title{
+    color: var(--dark-orange);
+    font-size: 40px;
+}
+
+.cpr-role-tagline{
+    font-size: 19px;
+    margin: 10px;
+    font-family: 'Lucida Sans';
+    text-align: left;
+}
+
+.cpr-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-left: 30pt;
+    margin-right: 20px;
+}
+
+.min-read{
+    font-size: 9px;
+    color: gray;
+    text-align: center;
+}
+
+.cpr-picture-background{
+    height: 82%;
+    width: 82%;
+    background-image: url("../../assets/Home/idea.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+}
+
+.cpr-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.colz .colz-icon i{
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    padding-left: 0px;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+    color:red;
+}
+
+@media screen and (max-width: 1110px) {
+    .cpr-picture{
+        margin: 0 0px 0 80px;
+    }
+
+    .cpr-parent{
+        justify-content: space-evenly;
+        width: 40%;
+    }
+    .cpr-details-name{
+        font-size: 20px;
+    }
+
+    .cpr-details-role .priamry-text{
+        font-size: 12px;
+    }
+
+    .cpr-options .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+    .cpr-contact{
+        font-size: 13px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 910px) {
+    .cpr-picture{
+        height: 90px;
+        width: 90px;
+        margin: 0 0 0 4px;
+    }
+    .cpr-contact{
+        font-size: 13px;
+        
+    }
+        
+}
+
+@media screen and (max-width: 810px) {
+    .cpr-picture{
+        margin: 0 !important;
+    }
+
+    .cpr-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+    .cpr-options{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cpr-details{
+        margin: 25px 0 0 ;
+    }
+    .cpr-options .highlighted-btn{
+        margin: 0 !important;
+    }
+
+    .cpr-details-name, .cpr-details-role{
+        text-align: center;
+    }
+    .cpr-contact{
+        font-size: 10px;
+        
+    }
+        
+}
+
+@media screen and (max-width: 375px) {
+    .cpr-picture{
+        height: 40px;
+        width: 40px;
+        margin-top: -40px;
+    }
+
+    .cpr-details{
+        width: 90%;
+    }
+    .cpr-contact{
+        font-size: 6px;
+        
+    }
+}

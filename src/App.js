@@ -5,13 +5,15 @@ import Home from './Screens/Home/Home'
 import NavigationBar from './Components/NavigationBar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomeFooter from './Screens/Home/HomeFooter';
+import Projects from './Screens/Projects/Projects';
 
 
 
 function App() {
   return (
     <div className="App">
-    <HomeFooter/>
+      <HomeFooter/>
+    <Projects/>
     </div>
   );
 }
