@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './Home'
 import "./HomeFooter.css";
-import NavigationBar from '../../Components/NavigationBar'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar'
 import AboutMe from '../AboutMe/AboutMe';
 import Contact from '../Contact/Contact';
 

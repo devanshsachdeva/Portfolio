@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
-import AboutMe from '../Screens/AboutMe/AboutMe';
-import HomeFooter from '../Screens/Home/HomeFooter';
+import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap'
+import AboutMe from '../../Screens/AboutMe/AboutMe';
+import HomeFooter from '../../Screens/Home/HomeFooter';
 import './NavigationBar.css'
 
 
@@ -12,7 +12,7 @@ const NavigationBar = () => {
                 <Container>
                     <Navbar.Brand>
                     <img
-                            src={require ('../assets/Home/logo.png')}
+                            src={require ('../../assets/Home/logo.png')}
                             width="90"
                             height="60"
                             className="d-inline-block align-center"

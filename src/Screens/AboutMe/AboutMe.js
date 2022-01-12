@@ -1,8 +1,6 @@
 import React from 'react'
-import Stacky from '../../Components/Stacky'
-import Typical from 'react-typical';
 import "./AboutMe.css"
-import Github from '../../Components/Github';
+import Github from '../../Components/Github/Github';
 
 export default function AboutMe() {
     return (

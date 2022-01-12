@@ -1,6 +1,6 @@
 import React from 'react'
-import NavigationBar from '../../Components/NavigationBar'
-import CompProjects from '../../Components/Projects/CompProjects'
+import NavigationBar from '../../Components/NavigationBar/NavigationBar'
+import CompProjects from '../../Components/CompProject/CompProjects'
 import FooterLayout from '../FooterLayout/FooterLayout'
 import './Projects.css'
 
