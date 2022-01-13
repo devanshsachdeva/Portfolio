@@ -9,7 +9,8 @@ const EduknowItem = ( props ) => (
                 {props.tag}
             </span>
             <time>{props.date}</time>
-            <p>{props.desc}</p>
+            <p><b>{props.desc}</b></p>
+            <p>{props.desct}</p>
             <a href={props.url} target="_blank" rel='noopener noreferrer'>
                 {props.text}
             </a>

@@ -3,8 +3,7 @@ import Eduknow from './Screens/Eduknow/Eduknow'
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div>
       <Eduknow/>
     </div>
   );
