@@ -11,18 +11,15 @@ export default function Home() {
                         <div className='colz-icon'>
 
                             <a href='https://www.facebook.com/sachdeva.devansh/'>
-                                <i className='fa fa-facebook-square'></i>       
+                                <i className='fa fa-facebook-square'></i>
                             </a>
-                            <a href='#'>
+                            <a href='https://www.instagram.com/thedevanshsachdeva/'>
                                 <i className='fa fa-instagram'></i>
                             </a>
-                            <a href='#'>
+                            <a href='https://github.com/devanshsachdeva'>
                                 <i className='fa fa-github'></i>
                             </a>
-                            <a href='#'>
-                                <i className='fa fa-youtube'></i>
-                            </a>
-                            <a href='#'>
+                            <a href='https://www.linkedin.com/in/sachdevansh/'>
                                 <i className='fa fa-linkedin'></i>
                             </a>
                         </div>
@@ -57,8 +54,8 @@ export default function Home() {
                                 />
                             </h1>
                             <span className='profile-role-tagline'>
-                                Exploring and Learning, from Backend to Frontend !<br/>
-                                Working in the day, following passion at night❤️<br/>
+                                Exploring and Learning, from Backend to Frontend !<br />
+                                Working in the day, following passion at night❤️<br />
                             </span>
 
                         </span>

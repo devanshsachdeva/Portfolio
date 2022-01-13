@@ -11,8 +11,8 @@ const NavigationBar = () => {
             <Navbar collapseOnSelect expand="lg" bg="transparent sticky-top " variant="dark">
                 <Container>
                     <Navbar.Brand>
-                    <img
-                            src={require ('../../assets/Home/logo.png')}
+                        <img
+                            src={require('../../assets/Home/logo.png')}
                             width="90"
                             height="60"
                             className="d-inline-block align-center"
@@ -22,7 +22,7 @@ const NavigationBar = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <br/>
+                            <br />
                             <Nav.Link href="/tata" component={HomeFooter}>Home</Nav.Link>
                             <Nav.Link href="/projects" component={AboutMe}>Projects</Nav.Link>
                             <Nav.Link href="/education">Education</Nav.Link>

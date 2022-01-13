@@ -9,14 +9,14 @@ const FooterLayout = () => {
             </div>
 
             <div className='footer-text-mid'>
-                <span>Happy Coding !! </span> 
+                <span>Happy Coding !! </span>
             </div>
 
             <div className='footer-text-ds'>
-                <span>Devansh Sachdeva</span> 
+                <span>Devansh Sachdeva</span>
             </div>
-            
-            
+
+
         </div>
     )
 }

@@ -19,8 +19,8 @@ const CompProjects = (props) => {
                     </span>
 
                 </div>
-                <div className='colz'>
-                    <div className='colz-icon'>
+                <div className='colzp'>
+                    <div className='colzp-icon'>
                         <a href='https://github.com/devanshsachdeva'>
                             <i className='fa fa-github'></i>
                         </a>

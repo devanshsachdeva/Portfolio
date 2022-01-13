@@ -3,13 +3,20 @@
     align-items: center;
     color: aliceblue;
     margin-bottom: 75px;
-    background-color: rgb(0,0,0,0.7);
+    background-color: rgb(56, 0, 54, 0.3);
+    border-color: #0cbaba;
     border-radius: 20px;
+    width: 510px;
     margin: 10pt;
+}
+
+.cpr-parent:hover{
+    background-color: #380036;
 }
 
 .cpr-details{
     margin: 10px;
+    width: 340px;
 }
 
 .cpr-contact{
@@ -29,7 +36,10 @@
     display: flex;
     flex-direction: column;
     margin: 14px 0 24px 0;
-    color: aliceblue
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+    width: 60%;
 }
 
 .cpr-details-role h1{
@@ -42,15 +52,15 @@
 }
 
 .highlighted-title{
-    color: var(--dark-orange);
+    color: var(--white);
     font-size: 40px;
 }
 
 .cpr-role-tagline{
     font-size: 19px;
-    margin: 10px;
+    margin: auto;
     font-family: 'Lucida Sans';
-    text-align: left;
+    text-align: center;
 }
 
 .cpr-picture{
@@ -86,7 +96,7 @@
     transition: 1s ease-out;
 }
 
-.colz .colz-icon i{
+.colzp .colzp-icon i{
     color: rgb(255, 255, 255);
     padding: 8px;
     padding-left: 0px;
@@ -94,7 +104,7 @@
     justify-content: center;
     align-items: center;
 }
-.colz .colz-icon i:hover{
+.colzp .colzp-icon i:hover{
     transform: scale(1.5);
     color:red;
 }
@@ -151,6 +161,10 @@
         margin: 40px 0 0 0;
     }
 
+    .highlighted-title{
+        font-size: 25px;
+    }
+
     .cpr-options{
         display: flex;
         justify-content: space-between;
@@ -162,15 +176,25 @@
     .cpr-options .highlighted-btn{
         margin: 0 !important;
     }
-
-    .cpr-details-name, .cpr-details-role{
-        text-align: center;
+ .cpr-details-role{
+        width: 60%;
+        margin-left: 75px;
     }
     .cpr-contact{
-        font-size: 10px;
+        font-size: 14px;
+    }
+
+    .colz{
+        display: flex;
+        justify-content: center;
         
     }
-        
+    
+    .cpr-role-tagline{
+        justify-content: center;
+        align-content: center;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 375px) {

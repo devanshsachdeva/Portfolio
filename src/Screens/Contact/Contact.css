@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     color: aliceblue;
-    margin-bottom: 75px;
 }
 
 .contact-details-name{
@@ -35,9 +34,6 @@
     color: (--white);
 }
 
-.highlighted-text{
-    color: var(--dark-orange);
-}
 
 .contact-role-tagline{
     font-size: 19px;

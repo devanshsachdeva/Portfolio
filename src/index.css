@@ -98,7 +98,7 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
   border: 2px solid linen;
   font-size: 12px;
-  background-color: #1f2235;
+  background-color: #380036;
 }
 /* @media only screen and (max-width: 414px) {
   .primary-btn {
@@ -107,9 +107,8 @@ body ::-webkit-scrollbar-thumb {
 } */
 
 .priamry-btn:hover {
-  color: aliceblue;
-  border: 2px solid #ff5823;
-  background-color: #1f2235;
+  color: #0cbaba;
+  border: 2px solid #0cbaba;
 }
 
 .highlighted-btn {

@@ -9,7 +9,6 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 470px;
-    background-image: url('../../assets/Home/bg.jpg');;
 }
 
 .prj-title{
@@ -17,7 +16,7 @@
 }
 
 .prj-title h1{
-    color: rgb(0, 140, 255);
+    color: #380036;
     font-family: 'Lucida Sans';
     font-weight: 900px;
     font-size: 70px;
